@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    background: #546576;
+ }
+ #logo{
+    display: flex;
+    align-items: center;
+    color: #c1b02c;
+    margin:8px;
+    font-size: 1.7rem;
+    font-family: cursive;
+ }
+ #logo>span{
+    color: #d3d31b;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ #logoImg{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 6px;
+    margin-top: 5px; 
+}
+#bg{ 
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1; 
+}
+
+#myForm{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    margin-top: -150px;
+}
+#inpForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9dfffa;
+    border-radius: 30px;
+    height: 60px;
+    width: 80%;
+    max-width: 500px;
+    padding: 5px;   
+    box-shadow: 0px 1px 10px 10px rgba(123, 231, 232, .6);
+}
+#inpForm>span>i{
+    color: #84c70a;
+    font-size: 1.3rem;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 9px;
+    margin-top: -5px;
+    z-index: 5;
+
+}
+.inpValue{
+    margin: 3px;
+    height: 80%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 1.3rem;
+    background-color: transparent;
+    background: #77d9de;
+    text-align: center;
+    color: chocolate;
+    font-family: cursive;
+    z-index: 2;
+}
+#button{
+    height: 80%;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    color: aliceblue;
+    margin-left: -5px;
+    outline: none;
+    background: #096055;
+    cursor: pointer;
+}
+
+#foodShow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 180px;
+}
+.foodShowResults{
+    margin: 10px;
+    border: 1px solid pink;
+    height: 330px; 
+    width: 300px; 
+    overflow: hidden; 
+    background:url("https://images.pexels.com/photos/13322687/pexels-photo-13322687.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load") center; 
+    border-radius: 10px;
+   
+}
+.details{
+    height: 100%;
+    transition: all .1s;
+    border-radius: 10px;
+
+}
+.details:hover{
+    height: 0px;
+
+}
+
+img{
+ height: 100%;
+ width: 100%;
+ border-radius: 10px;
+}
+.moreInfo{
+    color: aliceblue;
+}
+
+.moreInfo strong{
+    color: rgba(40, 32, 32, 0.785);
+}
+
+
+
+
+@media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+        background-size: cover;
+    }
+}
