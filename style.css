@@ -8,7 +8,8 @@
 body{
     height: 100vh;
     background: #546576;
- }
+   
+}
  #logo{
     display: flex;
     align-items: center;
@@ -21,13 +22,14 @@ body{
     color: #d3d31b;
     font-size: 1.2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- }
+}
  #logoImg{
     height: 30px;
     width: 30px;
     border-radius: 50%;
     margin-left: 6px;
     margin-top: 5px; 
+   
 }
 #bg{ 
   width: 100vw;
@@ -42,7 +44,7 @@ body{
 }
 
 #myForm{
-    height: 100px;
+    height: 230px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,6 +52,7 @@ body{
     z-index: 4;
     width: 100%;
     margin-top: -150px;
+   
 }
 #inpForm{
     display: flex;
@@ -62,6 +65,7 @@ body{
     max-width: 500px;
     padding: 5px;   
     box-shadow: 0px 1px 10px 10px rgba(123, 231, 232, .6);
+
 }
 #inpForm>span>i{
     color: #84c70a;
@@ -101,13 +105,21 @@ body{
     background: #096055;
     cursor: pointer;
 }
+#set-width{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    
+}
 
 #foodShow{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 180px;
+    margin-top: 130px;
+    max-width: 1500px;     
 }
 .foodShowResults{
     margin: 10px;
